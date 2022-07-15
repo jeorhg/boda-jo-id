@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/public_html/boda-jo-id
+    - /bin/cp -R images $DEPLOYPATH
